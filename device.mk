@@ -28,4 +28,6 @@ $(call inherit-product, device/realme/mt6771-common/mt6771-common.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/realme/RMX1831/RMX1831-vendor.mk)
 
-
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.RMX1831
