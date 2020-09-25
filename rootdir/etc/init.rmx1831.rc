@@ -3,5 +3,8 @@ on fs
      
 on post-fs-data
 
+on property:sys.boot_completed=1
+    setprop vendor.oppo.biometrics.fingerprint.boot_completed 1
+
 #Fingerprint
     chmod 0666 /dev/goodix_fp
