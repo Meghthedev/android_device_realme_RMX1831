@@ -21,6 +21,9 @@ BOARD_VENDOR := realme
 # Inherit from mt6771-common
 -include device/realme/mt6771-common/BoardConfigCommon.mk
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
+
 # Assertions
 TARGET_OTA_ASSERT_DEVICE := RMX1831,RMX1833
 
