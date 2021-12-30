@@ -38,4 +38,5 @@ $(call inherit-product, vendor/realme/RMX1831/RMX1831-vendor.mk)
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.RMX1831
+    android.hardware.biometrics.fingerprint@2.1-service.RMX1831 \
+    init.rmx1831.rc

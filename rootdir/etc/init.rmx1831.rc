@@ -1,0 +1,4 @@
+on post-fs-data
+
+#Fingerprint
+    chmod 0666 /dev/goodix_fp
