@@ -1,3 +1,6 @@
+on fs
+    chown system system /dev/goodix_fp
+     
 on post-fs-data
 
 #Fingerprint
