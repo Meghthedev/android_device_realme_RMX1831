@@ -56,13 +56,7 @@
          appearance of the cutout as much as possible, and may be smaller than
          config_mainBuiltInDisplayCutout
          -->
-    <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
-        M -85,0
-        V 79
-        H 85
-        V 0
-        Z
-    </string>
+    <string name="config_mainBuiltInDisplayCutout">M -70,0 L -70,81 L 70,81 L 70,0 Z</string>
      
     <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
          autodetected from the Configuration. -->
