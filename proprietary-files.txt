@@ -16,21 +16,9 @@ vendor/lib64/libudf.so|00563b48abe3e19856133a87775363a9ef98c049
 etc/apns-conf.xml:product/etc/apns-conf.xml
 
 # Audio
-vendor/etc/dirac/17065/diracmobile.config
-vendor/etc/dirac/17065/diracvdd.bin
 vendor/etc/diracmobile.config
 vendor/etc/diracvdd.bin
 vendor/firmware/tfa/common/tfa98xx.cnt
-vendor/firmware/tfa/oppo6771_17065/tfa9894/tfa98xx.cnt
-vendor/firmware/tfa/oppo6771_17065/tfa98xx.cnt
-vendor/firmware/tfa/oppo6771_17197/tfa9894/tfa98xx.cnt
-vendor/firmware/tfa/oppo6771_17197/tfa98xx.cnt
-vendor/firmware/tfa/oppo6771_18073/tfa9894/tfa98xx.cnt
-vendor/firmware/tfa/oppo6771_18151/tfa9894/tfa98xx.cnt
-vendor/firmware/tfa/oppo6771_18531/tfa9894/tfa98xx.cnt
-vendor/firmware/tfa/oppo6771_18531/tfa98xx.cnt
-vendor/firmware/tfa/oppo6771_18561/tfa9894/tfa98xx.cnt
-vendor/firmware/tfa/oppo6771_18561/tfa98xx.cnt
 vendor/firmware/tfa/oppo6771_18611/tfa9894/tfa98xx.cnt
 vendor/firmware/tfa/oppo6771_18611/tfa98xx.cnt
 vendor/lib/libaudiocompensationfilterc.so
