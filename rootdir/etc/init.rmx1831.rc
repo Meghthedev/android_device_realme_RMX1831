@@ -1,3 +1,9 @@
+on boot
+    write /proc/tfa98xx/oppo_tfa98xx_fw_update 1
+    chown system system /proc/tfa98xx/oppo_tfa98xx_fw_update
+    chown system system /proc/tfa98xx/ftm_tfa98xx_v6
+    chown 0644 /proc/tfa98xx/oppo_tfa98xx_fw_update
+    
 on fs
     chown system system /dev/goodix_fp
      
