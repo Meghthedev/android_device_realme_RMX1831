@@ -44,6 +44,7 @@ TARGET_VENDOR_DEVICE_NAME := RMX1831
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="RMX1831" \
     PRODUCT_NAME="RMX1831" \
-    PRIVATE_BUILD_DESC="full_oppo6771_18611-user 9 PPR1.180610.011 eng.root.20200915.143154 release-keys"
+    PRIVATE_BUILD_DESC="full_oppo6771_18611-user 9 PPR1.180610.011 eng.root.20191129.130521 release-keys"
 
-BUILD_FINGERPRINT := "google/raven/raven:12/SD1A.210817.015.A4/7697517:user/release-keys"
+# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
+BUILD_FINGERPRINT := full_oppo6771_18611-user-9-PPR1.180610.011-eng.root.20191129.130521-release-keys
