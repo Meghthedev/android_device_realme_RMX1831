@@ -1,8 +1,0 @@
-service oppo6771_audio /system/bin/sh -c "climax -l /vendor/firmware/tfa/oppo6771_18611/tfa98xx.cnt --start"
-    seclabel u:r:shell:s0
-    user root
-    oneshot
-    disabled
-
-on property:sys.boot_completed=1
-    start oppo6771_audio

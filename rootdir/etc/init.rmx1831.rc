@@ -1,5 +1,3 @@
-import /vendor/etc/init/hw/oppo6771_audio.rc
-
 on boot
     write /proc/tfa98xx/oppo_tfa98xx_fw_update 1
     chown system system /proc/tfa98xx/oppo_tfa98xx_fw_update
@@ -10,6 +8,7 @@ on fs
     chown system system /dev/goodix_fp
      
 on post-fs-data
+    exec - root -- /system/bin/sh -c "climax -l /vendor/firmware/tfa/oppo6771_18611/tfa98xx.cnt --start"
 
 on property:sys.boot_completed=1
     setprop vendor.oppo.biometrics.fingerprint.boot_completed 1

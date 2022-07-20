@@ -48,5 +48,4 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.rmx1831.rc \
-    oppo6771_audio.rc
+    init.rmx1831.rc
