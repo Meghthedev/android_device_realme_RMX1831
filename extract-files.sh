@@ -93,6 +93,12 @@ function blob_fixup() {
         vendor/lib64/hw/dfps.mt6771.so)
             "${PATCHELF}" --replace-needed "libutils.so" "libutils_v32.so" "${2}"
             ;;
+        vendor/bin/*)
+            "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase_v32.so" "$2"
+            ;;
+        vendor/lib/*)
+            "$PATCHELF" --replace-needed "libhidlbase.so" "libhidlbase_v32.so" "$2"
+            ;;
     esac
 }
 
