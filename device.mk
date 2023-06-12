@@ -46,6 +46,10 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.RMX1831 \
     vendor.oppo.hardware.biometrics.fingerprint@2.1
 
+# TFA98XX Audio
+PRODUCT_PACKAGES += \
+    tfa98xx_hal
+    
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.rmx1831.rc
