@@ -12,6 +12,5 @@ extern "C" {
 int tfa98xx_hal_load_config();
 
 }
-#endif
 
 #endif // TFA98XX_HAL_H
